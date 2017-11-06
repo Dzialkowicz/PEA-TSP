@@ -13,16 +13,17 @@ using namespace std;
 Matrix baseMatrix;
 
 //1. Loading Matrix from file DONE
-//2.
+//2. Displaying Matrix
+//3. Generating random Matrix
 
 int main(int argc, const char * argv[]) {
     
-        string menu("Wybierz akcje:\n"
-                     "1 - Wczytaj graf z pliku *.txt\n"
-                     "2 - Generuj losowy graf\n"
-                     "3 - Wyswietl w postaci macierzy\n"
-                     "4 - Znajdz rozwiazanie metoda podzialu i ograniczen\n"
-                     "0- Zakoncz program");
+        string menu("Choose options:\n"
+                     "0 - Quit\n"
+                     "1 - Load TSP data from file *.txt\n"
+                     "2 - Generate path\n"
+                     "3 - Display Matrix\n"
+                     "4 - B&B\n");
 
     
     int menu_opt = 1;
@@ -42,9 +43,17 @@ int main(int argc, const char * argv[]) {
                 break;
             }
             case 2:{
+                int matrixSize;
+                int maxCost;
+                cout<<"Pass Matrix Size: \n";
+                cin>> matrixSize;
+                cout<<"Pass Maximum Cost: \n";
+                cin>>maxCost;
+                baseMatrix = Matrix(matrixSize, maxCost);
                 break;
             }
             case 3:{
+                cout << baseMatrix<<"\n";
                 break;
             }
             case 4:{

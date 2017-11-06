@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1F21BA871FA4AC3100913A7A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F21BA861FA4AC3100913A7A /* main.cpp */; };
 		1F21BA8F1FA4B22900913A7A /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F21BA8E1FA4B22900913A7A /* matrix.cpp */; };
+		1FFC6A871FB0E07500BBA836 /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FFC6A851FB0E07500BBA836 /* path.cpp */; };
+		1FFC6A8A1FB0E09400BBA836 /* edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FFC6A881FB0E09400BBA836 /* edge.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		1F21BA861FA4AC3100913A7A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1F21BA8D1FA4AE4500913A7A /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
 		1F21BA8E1FA4B22900913A7A /* matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; };
+		1FFC6A851FB0E07500BBA836 /* path.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = path.cpp; sourceTree = "<group>"; };
+		1FFC6A881FB0E09400BBA836 /* edge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = edge.cpp; sourceTree = "<group>"; };
+		1FFC6A8B1FB0E0CF00BBA836 /* edge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = edge.h; sourceTree = "<group>"; };
+		1FFC6A8C1FB0E0DD00BBA836 /* path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = path.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				1F21BA861FA4AC3100913A7A /* main.cpp */,
+				1FFC6A851FB0E07500BBA836 /* path.cpp */,
+				1FFC6A881FB0E09400BBA836 /* edge.cpp */,
+				1FFC6A8B1FB0E0CF00BBA836 /* edge.h */,
+				1FFC6A8C1FB0E0DD00BBA836 /* path.h */,
 				1F21BA8D1FA4AE4500913A7A /* matrix.h */,
 				1F21BA8E1FA4B22900913A7A /* matrix.cpp */,
 			);
@@ -126,6 +136,8 @@
 			files = (
 				1F21BA8F1FA4B22900913A7A /* matrix.cpp in Sources */,
 				1F21BA871FA4AC3100913A7A /* main.cpp in Sources */,
+				1FFC6A8A1FB0E09400BBA836 /* edge.cpp in Sources */,
+				1FFC6A871FB0E07500BBA836 /* path.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
